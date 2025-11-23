@@ -72,7 +72,7 @@ var lyr_Arbres_4 = new ol.layer.Vector({
     title: 'Arbres<br />\
     <img src="styles/legend/Arbres_4_0.png" /> Arbres sans avenir<br>(défauts mécaniques et/ou maladies impactant son espérance de maintien)<br />\
     <img src="styles/legend/Arbres_4_1.png" /> Arbre accompagnant les arbres d\'avenir et objectifs<br />\
-    <img src="styles/legend/Arbres_4_2.png" /> Arbre d\'avenir pouvant continuer à se développer à long terme<br />\
+    <img src="styles/legend/Arbres_4_2.png" /> Arbre d\'avenir ayant une bonne confomartion pour un dev. à long terme<br />\
     <img src="styles/legend/Arbres_4_3.png" /> Arbre objectif bien implanté dont le développement est à favoriser<br />' });
 
 lyr_OpenStreetMap_0.setVisible(true);lyr_GoogleSatelliteHybrid_1.setVisible(true);lyr_Cadastralparcelcopie_2.setVisible(true);lyr_Implantation_batiment_3.setVisible(true);lyr_Arbres_4.setVisible(true);
