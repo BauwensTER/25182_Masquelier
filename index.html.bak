@@ -63,7 +63,7 @@ window.onload = function() {
         var feature = map.forEachFeatureAtPixel(evt.pixel, function(f) { return f; });
         if (feature) {
             // Champs à afficher dans la table
-            var fields = ['_record_id', 'pos_id', 'arb_vern','arb_brin_nb', 'arb_circ', 'ges_pot', 'photo_url'];
+            var fields = ['_record_id', 'pos_id', 'arb_vern','arb_brin_nb', 'arb_circ', 'ges_pot','ges_comment', 'photo_url'];
 
             // Mapping des noms de champs vers des labels lisibles
             var labels = {
@@ -73,6 +73,7 @@ window.onload = function() {
                  'arb_brin_nb': 'Nombre de troncs',
                 'arb_circ': 'Circonférence (cm)',
                 'ges_pot': 'Gestion potentielle',
+                'ges_comment': 'Commentaire',
                 'photo_url': 'Photo'
             };
 
