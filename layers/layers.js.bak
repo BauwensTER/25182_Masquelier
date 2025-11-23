@@ -68,7 +68,7 @@ var lyr_Arbres_4 = new ol.layer.Vector({
                 source:jsonSource_Arbres_4, 
                 style: style_Arbres_4,
                 popuplayertitle: 'Arbres',
-                interactive: false,
+                interactive: true,
     title: 'Arbres<br />\
     <img src="styles/legend/Arbres_4_0.png" /> Arbres sans avenir (défauts mécaniques et/ou maladies impactant son espérance de maintien)<br />\
     <img src="styles/legend/Arbres_4_1.png" /> Arbre accopagnant les arbres d\'avenir et objectifs<br />\
